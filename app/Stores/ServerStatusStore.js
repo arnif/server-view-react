@@ -7,9 +7,7 @@ var _ = require('underscore');
 var serverStatusData = {};
 
 function getStatusData(data) {
-
   serverStatusData = data;
-
 }
 
 var ServerStatusStore = _.extend({}, EventEmitter.prototype, {
